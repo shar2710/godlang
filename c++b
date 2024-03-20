@@ -1,0 +1,20 @@
+#include <iostream> 
+int main(){
+
+    int a = 10;
+    int b = 5;
+
+    int sum = a + b; // addition
+    int difference = a - b; // subtraction
+    int product = a * b; // multiplication
+    int quotient = a / b; // division
+    int remainder = a % b; // modulus
+    #include <iostream>
+
+    std::cout << "Sum: " << sum << std::endl;
+    std::cout << "Difference: " << difference << std::endl;
+    std::cout << "Product: " << product << std::endl;
+    std::cout << "Quotient: " << quotient << std::endl;
+    std::cout << "Remainder: " << remainder << std::endl;
+    return 0;
+}
